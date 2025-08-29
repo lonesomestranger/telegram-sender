@@ -1,0 +1,21 @@
+{
+	"api_id": 12345678,
+	"api_hash": "your_api_hash_from_my.telegram.org",
+	"session_name": "my_sender_session",
+	"daily_message_limit": 100,
+	"delay_seconds": 300,
+	"targets": [
+		{
+			"chat_id": "me",
+			"message_text": "Это тестовое сообщение в 'Избранное'. Можно использовать **Markdown**."
+		},
+		{
+			"chat_id": "some_channel_username",
+			"message_text": "Это текст первого сообщения для первого чата."
+		},
+		{
+			"chat_id": -1001234567890,
+			"message_text": "Это уникальный текст для второго чата."
+		}
+	]
+}
